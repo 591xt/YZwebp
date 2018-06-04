@@ -29,6 +29,7 @@ imageUiv.image = [UIImage imageWithWebP:@"WEBP图片的名字加后缀就可以�
 [self.imgView addSubview:imageUiv];
 
 #模拟器上没效果，直接上真机查看效果     
+      
 
 
 
