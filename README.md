@@ -16,7 +16,7 @@
 
 ![Alt text](http://118.24.89.63:8080/2.png)
 
-####2.配置工程
+###2.配置工程
 
 TARGETS->Build Settings->Other Linker Flags 添加一个  -ObjC
 
