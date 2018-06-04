@@ -1,6 +1,6 @@
-# YZwebp
+# YZwebp #
 
-##让iOSApp显示webp图片
+#让iOSApp显示webp图片#
 
 #模拟器上没效果，直接上真机查看效果#
 
@@ -12,9 +12,9 @@
 
 导入记得勾选拷贝，如图：
 
-![Alt text](/Users/zx/Desktop/1.png)
+![Alt text](http://118.24.89.63:8080/1.png)
 
-![Alt text](/Users/zx/Desktop/2.png)
+![Alt text](http://118.24.89.63:8080/2.png)
 
 ####2.配置工程
 
