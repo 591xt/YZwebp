@@ -1,12 +1,12 @@
 # YZwebp      
  
-#让iOSApp显示webp图片      
+# 让iOSApp显示webp图片      
 
-#模拟器上没效果，直接上真机查看效果        
+# 模拟器上没效果，直接上真机查看效果        
 
-###使用方法：     
+### 使用方法：     
 
-####1.下载该静态库并导入      
+#### 1.下载该静态库并导入      
 
 <https://github.com/YouZhiZheShiJingCheng/YZwebp>
 
@@ -16,11 +16,11 @@
 
 ![Alt text](http://118.24.89.63:8080/2.png)
 
-###2.配置工程      
+### 2.配置工程      
 
 TARGETS->Build Settings->Other Linker Flags 添加一个  -ObjC
 
-####3.开始应用         
+#### 3.开始应用         
 
 UIImageView* imageUiv=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0,60, 60)];
 
@@ -28,7 +28,7 @@ imageUiv.image = [UIImage imageWithWebP:@"WEBP图片的名字加后缀就可以�
 
 [self.imgView addSubview:imageUiv];
 
-#模拟器上没效果，直接上真机查看效果     
+# 模拟器上没效果，直接上真机查看效果     
       
 
 
