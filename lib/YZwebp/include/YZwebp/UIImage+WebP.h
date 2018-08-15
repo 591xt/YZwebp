@@ -10,27 +10,5 @@
 
 + (UIImage*)imageWithWebP:(NSString*)filePath;
 
-+ (NSData*)imageToWebP:(UIImage*)image quality:(CGFloat)quality;
-
-+ (void)imageToWebP:(UIImage*)image
-            quality:(CGFloat)quality
-              alpha:(CGFloat)alpha
-             preset:(WebPPreset)preset
-    completionBlock:(void (^)(NSData* result))completionBlock
-       failureBlock:(void (^)(NSError* error))failureBlock;
-
-+ (void)imageToWebP:(UIImage*)image
-            quality:(CGFloat)quality
-              alpha:(CGFloat)alpha
-             preset:(WebPPreset)preset
-        configBlock:(void (^)(WebPConfig* config))configBlock
-    completionBlock:(void (^)(NSData* result))completionBlock
-       failureBlock:(void (^)(NSError* error))failureBlock;
-
-+ (void)imageWithWebP:(NSString*)filePath
-      completionBlock:(void (^)(UIImage* result))completionBlock
-         failureBlock:(void (^)(NSError* error))failureBlock;
-
-- (UIImage*)imageByApplyingAlpha:(CGFloat)alpha;
 
 @end
