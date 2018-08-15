@@ -1,9 +1,7 @@
 
 # YZwebp      
  
-# 让iOSApp显示webp图片      
-
-# 模拟器上没效果，直接上真机查看效果        
+# 让iOSApp显示webp图片            
 
 ### 使用方法：     
 
@@ -28,8 +26,7 @@ UIImageView* imageUiv=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0,60, 60)]
 imageUiv.image = [UIImage imageWithWebP:@"WEBP图片的名字加后缀就可以了"];
 
 [self.imgView addSubview:imageUiv];
-
-# 模拟器上没效果，直接上真机查看效果     
+    
       
 # Demo地址：
 
